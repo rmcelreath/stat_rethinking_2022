@@ -19,7 +19,12 @@ Online, flipped instruction. The lectures are pre-recorded. We'll meet online on
 
 We'll use the 2nd edition of my book, <[Statistical Rethinking](https://xcelab.net/rm/statistical-rethinking/)>. I'll provide a PDF of the book to enrolled students.
 
-Registration: Please sign up via <[EventBright](https://www.eventbrite.co.uk/e/statistical-rethinking-2022-tickets-207786975437)>. I've also set aside 100 audit tickets at the same link, for people who want to participate, but who don't need graded work and course credit.
+**Registration**: 
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Aaaaand it&#39;s sold out. Sorry there aren&#39;t more spots. Had to give priority to my <a href="https://twitter.com/MPI_EVA_Leipzig?ref_src=twsrc%5Etfw">@MPI_EVA_Leipzig</a> and <a href="https://twitter.com/idiv?ref_src=twsrc%5Etfw">@idiv</a> peeps.<br><br>Will post lecture links here as they become available.</p>&mdash; Richard McElreath 🍜 (@rlmcelreath) <a href="https://twitter.com/rlmcelreath/status/1459148324091703298?ref_src=twsrc%5Etfw">November 12, 2021</a></blockquote>
+
+ Please sign up via <[EventBright](https://www.eventbrite.co.uk/e/statistical-rethinking-2022-tickets-207786975437)>. I've also set aside 100 audit tickets at the same link, for people who want to participate, but who don't need graded work and course credit.
+
 
 # Calendar & Topical Outline
 
