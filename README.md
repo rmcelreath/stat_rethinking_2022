@@ -25,11 +25,13 @@ Registration: Please sign up via <[COURSE IS FULL SORRY]>. I've also set aside 1
 
 There are 10 weeks of instruction. Links to lecture recordings will appear in this table. Weekly problem sets are assigned on Fridays and due the next Friday, when we discuss the solutions in the weekly online meeting.
 
+Lecture playlist on Youtube: <[Statistical Rethinking 2022](https://www.youtube.com/playlist?list=PLDcUM9US4XdMROZ57-OIRtIK0aOynbgZN)>
+
 [//]: # (11 Feb SPP conflict , 25 Feb Winter Break conflict )
 
 | Week ## | Meeting date | Reading | Lectures |
 | ------- | -------------- | ------------- | ---------------------- |
-| Week 01 | 07 January  | Chapters 1, 2 and 3 | [1] <[The Golem of Prague](https://youtu.be/cclUd_HoRlo)> <[(Slides)](https://speakerdeck.com/rmcelreath/statistical-rethinking-2022-lecture-01)> <br> [2] Models & Bayesian Updating 
+| Week 01 | 07 January  | Chapters 1, 2 and 3 | [1] <[The Golem of Prague](https://youtu.be/cclUd_HoRlo)> <[(Slides)](https://speakerdeck.com/rmcelreath/statistical-rethinking-2022-lecture-01)> <br> [2] <[Bayesian Inference](https://www.youtube.com/watch?v=guTdrfycW2Q&list=PLDcUM9US4XdMROZ57-OIRtIK0aOynbgZN&index=2)> <[(Slides)](https://speakerdeck.com/rmcelreath/statistical-rethinking-2022-lecture-02)> 
 | Week 02 | 14 January | Chapter 4 | [3] Basic Regression <br> [4] Not-so-basic Regression
 | Week 03 | 21 January | Chapters 5 and 6 |  [5] Confounding <br> [6] Even Worse Confounding
 | Week 04 | 28 January | Chapters 7 and 8 | [7] Overfitting <br> [8] Interactions
