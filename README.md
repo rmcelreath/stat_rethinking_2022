@@ -5,7 +5,7 @@ Statistical Rethinking (2022 Edition)
 
 Instructor: Richard McElreath
 
-Lectures: Uploaded and pre-recorded, two per week
+Lectures: Uploaded <[Playlist](https://www.youtube.com/playlist?list=PLDcUM9US4XdMROZ57-OIRtIK0aOynbgZN)> and pre-recorded, two per week
 
 Discussion: Online, Fridays 3pm-4pm Central European Time
 
