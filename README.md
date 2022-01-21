@@ -45,7 +45,7 @@ Lecture playlist on Youtube: <[Statistical Rethinking 2022](https://www.youtube.
 
 # Coding
 
-This course involves a lot of scripting. Students can engage with the material using either the original R code examples or one of several conversions to other computing environments. The conversions are not always exact, but they are rather complete. Each option is listed below.
+This course involves a lot of scripting. Students can engage with the material using either the original R code examples or one of several conversions to other computing environments. The conversions are not always exact, but they are rather complete. Each option is listed below. I also list conversions <[here](https://xcelab.net/rm/statistical-rethinking/)>.
 
 ## Original R Flavor
 
@@ -55,9 +55,9 @@ For those who want to use the original R code examples in the print book, you ne
 
 The <[Tidyverse/brms](https://bookdown.org/content/4857/)> conversion is very high quality and complete through Chapter 14.
 
-## Python and PyMC3
+## Python: PyMC3 and NumPyro and more
 
-The <[Python/PyMC3](https://github.com/pymc-devs/resources/tree/master/Rethinking_2)> conversion is quite complete.
+The <[Python/PyMC3](https://github.com/pymc-devs/resources/tree/master/Rethinking_2)> conversion is quite complete. There are also at least two NumPyro conversions: <[NumPyro1](https://github.com/asuagar/statrethink-course-numpyro-2019)> <[NumPyro2](https://fehiepsi.github.io/rethinking-numpyro/)>. And there is this <[TensorFlow Probability](https://github.com/ksachdeva/rethinking-tensorflow-probability)>. 
 
 ## Julia and Turing
 
