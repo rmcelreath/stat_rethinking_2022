@@ -132,12 +132,12 @@ plot( d$height , d$weight , col=col2 , lwd=3 , cex=1.2 , xlab="height (cm)" , yl
 
 # expectation with 99% compatibility interval
 xseq <- seq(from=130,to=190,len=50)
-mu <- link(m0,data=list(H=xseq,Hbar=mean(d$height)))
+mu <- link(m_adults,data=list(H=xseq,Hbar=mean(d$height)))
 lines( xseq , apply(mu,2,mean) , lwd=4 )
 shade( apply(mu,2,PI,prob=0.99) , xseq , col=col.alpha(2,0.5) )
 
 # 89% prediction interval
-W_sim <- sim(m0,data=list(H=xseq,Hbar=mean(d$height)))
+W_sim <- sim(m_adults,data=list(H=xseq,Hbar=mean(d$height)))
 shade( apply(W_sim,2,PI,prob=0.89) , xseq , col=col.alpha(1,0.3) )
 
 
