@@ -286,15 +286,38 @@ abline(v=0,lty=3)
 # and then again as if all had been perceived as women
 # difference is marginal effect of perception, beause does not change department assignments (G -> A only, no G -> D)
 
-p_G1 <- link( mGD , data=list(N=dat$N,D=dat$D,G=rep(1,12)) )
-p_G2 <- link( mGD , data=list(N=dat$N,D=dat$D,G=rep(2,12)) )
+# OLD WRONG CODE!
+#p_G1 <- link( mGD , data=list(N=dat$N,D=dat$D,G=rep(1,12)) )
+#p_G2 <- link( mGD , data=list(N=dat$N,D=dat$D,G=rep(2,12)) )
 
+# NEW CORRECT CODE
+
+# number of applicatons to simulate
+total_apps <- sum(dat$N)
+
+# number of applications per department
+apps_per_dept <- sapply( 1:6 , function(i) sum(dat$N[dat$D==i]) )
+
+# simulate as if all apps from women
+p_G1 <- link(m2,data=list(
+    D=rep(1:6,times=apps_per_dept),
+    N=rep(1,total_apps),
+    G=rep(1,total_apps)))
+
+# simulate as if all apps from men
+p_G2 <- link(m2,data=list(
+    D=rep(1:6,times=apps_per_dept),
+    N=rep(1,total_apps),
+    G=rep(2,total_apps)))
+
+# summarize
 dens( p_G1 - p_G2 , lwd=4 , col=2 , xlab="effect of gender perception" )
 abline(v=0,lty=3)
 
 # show each dept density with weight as in population
-w <- xtabs( dat$A ~ dat$D ) / sum(dat$A)
+w <- xtabs( dat$N ~ dat$D ) / sum(dat$N)
+w <- w/max(w)
 plot(NULL,xlim=c(-0.2,0.3),ylim=c(0,25),xlab="Gender contrast (probability)",ylab="Density")
-for ( i in 1:6 ) dens( diff_prob_D_[,i] , lwd=2+20*w[i] , col=1+i , add=TRUE )
+for ( i in 1:6 ) dens( diff_prob_D_[,i] , lwd=2+8*w[i]^3 , col=1+i , add=TRUE )
 abline(v=0,lty=3)
 
