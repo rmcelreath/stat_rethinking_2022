@@ -299,13 +299,13 @@ total_apps <- sum(dat$N)
 apps_per_dept <- sapply( 1:6 , function(i) sum(dat$N[dat$D==i]) )
 
 # simulate as if all apps from women
-p_G1 <- link(m2,data=list(
+p_G1 <- link(mGD,data=list(
     D=rep(1:6,times=apps_per_dept),
     N=rep(1,total_apps),
     G=rep(1,total_apps)))
 
 # simulate as if all apps from men
-p_G2 <- link(m2,data=list(
+p_G2 <- link(mGD,data=list(
     D=rep(1:6,times=apps_per_dept),
     N=rep(1,total_apps),
     G=rep(2,total_apps)))
