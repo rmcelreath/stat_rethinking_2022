@@ -182,7 +182,7 @@ simplehist(as.vector(Rsim),lwd=8,col=2,xlab="Response")
 mtext(concat("A=",vals[1],", I=",vals[2],", C=",vals[3]))
 
 # total effect of gender
-dat$G <- iflelse(d$male==1,2,1)
+dat$G <- ifelse(d$male==1,2,1)
 mRXG <- ulam(
     alist(
         R ~ dordlogit(phi,alpha),
