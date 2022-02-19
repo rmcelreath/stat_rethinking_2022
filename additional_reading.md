@@ -7,3 +7,5 @@ Singer and Willett. Applied Longitudinal Data Analysis: Modeling Change and Even
 ## Treatment effects and generalizing causal effects
 Tal Yarkoni "The Generalizability Crisis" <[link](https://psyarxiv.com/jqw35/)>
 
+## Post-stratification and description
+Deffner, Rohrer, McElreath 2021 A Causal Framework for Cross-Cultural Generalizability <[link](https://psyarxiv.com/fqukp)>
